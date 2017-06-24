@@ -1,34 +1,84 @@
 <!DOCTYPE html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>frontend-ajax-table</title>
-    <link rel="stylesheet" href="styles/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>frontend-ajax-table</title>
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
   <main>
-    <h2>1. Список всех пользователей</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>Фото</th>
-          <th>Полное имя</th>
-          <th>Активный</th>
-          <th>Описание</th>
-          <th>Баланс</th>
-          <th>Возраст</th>
-          <th>Дата регистрации</th>
-          <th>Компания</th>
-          <th>E-mail</th>
-          <th>Номер телефона</th>
-          <th>Адрес</th>
-        </tr>
-      </thead>
-      <tbody class="all-persons">
-      </tbody>
-    </table>
+    <ul>
+      <li>
+        <h2>1. Список всех пользователей</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Фото</th>
+              <th>Полное имя</th>
+              <th>Активный</th>
+              <th>Описание</th>
+              <th>Баланс</th>
+              <th>Возраст</th>
+              <th>Дата регистрации</th>
+              <th>Компания</th>
+              <th>E-mail</th>
+              <th>Номер телефона</th>
+              <th>Адрес</th>
+            </tr>
+          </thead>
+          <tbody class="all-persons">
+          </tbody>
+        </table>
+      </li>
+      <li>
+        <h2>2. Список активных пользователей</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Фото</th>
+              <th>Полное имя</th>
+              <th>Активный</th>
+              <th>Описание</th>
+              <th>Баланс</th>
+              <th>Возраст</th>
+              <th>Дата регистрации</th>
+              <th>Компания</th>
+              <th>E-mail</th>
+              <th>Номер телефона</th>
+              <th>Адрес</th>
+            </tr>
+          </thead>
+          <tbody class="active-persons">
+          </tbody>
+        </table>
+      </li>
+      <li>
+        <h2>3. Список всех пользователей отсортированных по возрасту.</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Фото</th>
+              <th>Полное имя</th>
+              <th>Активный</th>
+              <th>Описание</th>
+              <th>Баланс</th>
+              <th>Возраст</th>
+              <th>Дата регистрации</th>
+              <th>Компания</th>
+              <th>E-mail</th>
+              <th>Номер телефона</th>
+              <th>Адрес</th>
+            </tr>
+          </thead>
+          <tbody class="sort-persons">
+          </tbody>
+        </table>
+      </li>
+
+
+    </ul>
   </main>
   <script src="axios.js"></script>
   <script src="jquery.js"></script>
