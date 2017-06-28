@@ -25,7 +25,7 @@
 	},
 	"neutrino": {
 		"use": [
-			"fabrika-neutrino-preset"
+			"neutrino-preset-fabrika"
 		]
 	},
 	"dependencies": {
